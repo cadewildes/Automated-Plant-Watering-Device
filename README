@@ -87,6 +87,14 @@ Aligned with UN Sustainable Development Goals:
 
 ## Future Improvements
 - Integrate **solar charging** for longer runtime.  
-- Add **OLED display** for live moisture readings.  
+- Add **OLED display** for live moisture readings. 
+
+## My Contributions
+- Designed and tested the reservoir and flow system for durability and refill cycles.
+- Assisted in wiring and integration of the soil moisture sensor and relay.
+- Conducted sustainability analysis aligning with UN SDGs.
+- Led troubleshooting sessions to validate pump safety and prevent overwatering.
+- Co-authored final presentation and technical documentation.
+
 - Expand to **multi-plant zones**.  
 - Implement **data logging** for moisture and watering cycles.  

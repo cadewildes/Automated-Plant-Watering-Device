@@ -97,4 +97,19 @@ Aligned with UN Sustainable Development Goals:
 - Co-authored final presentation and technical documentation.
 
 - Expand to **multi-plant zones**.  
-- Implement **data logging** for moisture and watering cycles.  
+- Implement **data logging** for moisture and watering cycles.
+
+## Project Media
+
+### System Diagram
+![System Code Diagram](docs/Code.webp)
+
+### Plant Overview
+![Plant Overview](docs/PlantOV.webp)
+
+### Final Prototype Setup
+![Working Prototype](docs/Working.webp)
+
+### Presentation
+[Download Group Design Project Slides](docs/Group%20Design%20Project.pptx)
+

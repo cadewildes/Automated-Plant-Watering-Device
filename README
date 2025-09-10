@@ -1,0 +1,92 @@
+# Automated Plant Caretaker
+
+## Overview
+This device was designed to solve a common problem: many plants receive improper watering due to **neglect, lack of knowledge, or lack of time**.  
+Our system provides an **automatic, low-maintenance watering solution** that ensures soil moisture is kept within a user-defined range, requiring only a weekly reservoir refill.
+
+**Built by:** Andrew Gonzalez, Ben Wagner, and Cade Wildes  
+**Course:** EGG1040 | Group Design Project | FRCC Mines Academy  
+
+---
+
+## Key Features
+- **1L Reservoir** – Waters most plants for a week or more between refills.  
+- **Minimal User Input** – User only refills the water reservoir; watering is automatic.  
+- **Adjustable Flow Rate & Moisture Thresholds** – Supports different plant species and soil types.  
+- **Soil Moisture Detection** – Uses sensor feedback to water only when needed.  
+- **Battery Powered** – 9V power source with relay protection for safe pump control.  
+- **Low Maintenance Design** – Engineered to last up to a year without major service.  
+
+---
+
+## Design Process
+### Initial Concepts
+1. **Mechanical clip-based waterer** (gravity-fed).  
+2. **Battery powered pump** (automatic control).  
+3. **Solar powered pump** (to extend lifetime).  
+
+**Final Concept:** Combination of 2 + 3, battery-powered automatic waterer with soil moisture sensing.  
+
+### Hardware Architecture
+- **Reservoir:** 1L watertight container.  
+- **Controller:** Raspberry Pi 4 (programmed via Arduino IDE).  
+- **Sensors:** Capacitive soil moisture sensor.  
+- **Actuation:** Water pump (relay-controlled).  
+- **Power:** 9V battery source (budget-friendly change from original solar design).  
+
+---
+
+## Sustainability Analysis
+Aligned with UN Sustainable Development Goals:  
+- **Goal 13: Climate Action** – Low-power operation, reduced water waste.  
+- **Goal 15: Life on Land** – Healthier plants, biodiversity protection.  
+- **Goal 9: Innovation & Infrastructure** – Promotes accessible IoT tech and potential economic growth.  
+- **Goal 11: Sustainable Cities & Communities** – Supports urban green spaces and climate adaptation.  
+- **Goal 12: Responsible Consumption** – Encourages efficient resource use and sustainable living.  
+
+---
+
+## Bill of Materials
+| Component | Notes |
+|-----------|-------|
+| Raspberry Pi 4 | Controller, programmed with Arduino IDE |
+| Soil Moisture Sensor | Detects water content, drives pump logic |
+| 9V Battery + Relay | Power source with current protection |
+| Pump | Moves water from reservoir to plant |
+| Reservoir (1L) | Holds enough water for ~1 week |
+| Tubing & Clip | Delivers water to soil |
+
+---
+
+## Testing & Results
+- Verified soil moisture sensor accuracy across wet/dry conditions.  
+- Pump relay successfully prevents overcurrent events.  
+- Adjustable thresholds allow tuning for different plants.  
+- Final prototype met all design requirements:
+  - **1L reservoir capacity** (≥1 week refill cycle).  
+  - **Adjustable flow and moisture setpoints.**  
+  - **Low maintenance operation.**  
+
+---
+
+## Applications
+- Indoor houseplants  
+- Greenhouses  
+- Outdoor landscaping  
+- Retail environments (nurseries, plant stores)  
+
+---
+
+## Lessons Learned
+- Improved group work and task delegation.  
+- Practiced troubleshooting and iterative prototyping.  
+- Developed problem-solving and time management skills.  
+- Learned to integrate sustainability goals into engineering design.  
+
+---
+
+## Future Improvements
+- Integrate **solar charging** for longer runtime.  
+- Add **OLED display** for live moisture readings.  
+- Expand to **multi-plant zones**.  
+- Implement **data logging** for moisture and watering cycles.  
